@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sorting-hat/static/css/main.758093ac.chunk.css",
+    "main.js": "/sorting-hat/static/js/main.aed0ec0a.chunk.js",
+    "main.js.map": "/sorting-hat/static/js/main.aed0ec0a.chunk.js.map",
+    "runtime-main.js": "/sorting-hat/static/js/runtime-main.ff214138.js",
+    "runtime-main.js.map": "/sorting-hat/static/js/runtime-main.ff214138.js.map",
+    "static/js/2.1a17ba02.chunk.js": "/sorting-hat/static/js/2.1a17ba02.chunk.js",
+    "static/js/2.1a17ba02.chunk.js.map": "/sorting-hat/static/js/2.1a17ba02.chunk.js.map",
+    "index.html": "/sorting-hat/index.html",
+    "precache-manifest.88234c6b909196e7410fce46ece3fedc.js": "/sorting-hat/precache-manifest.88234c6b909196e7410fce46ece3fedc.js",
+    "service-worker.js": "/sorting-hat/service-worker.js",
+    "static/css/main.758093ac.chunk.css.map": "/sorting-hat/static/css/main.758093ac.chunk.css.map",
+    "static/js/2.1a17ba02.chunk.js.LICENSE.txt": "/sorting-hat/static/js/2.1a17ba02.chunk.js.LICENSE.txt",
+    "static/media/quiz.css": "/sorting-hat/static/media/slytherin.d3d18c2c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff214138.js",
+    "static/js/2.1a17ba02.chunk.js",
+    "static/css/main.758093ac.chunk.css",
+    "static/js/main.aed0ec0a.chunk.js"
+  ]
+}
