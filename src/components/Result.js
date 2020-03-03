@@ -2,13 +2,13 @@ import React from 'react';
 
 class Result extends React.Component {
   showHouseColor() {
-    if (this.props.result == "Gryffindor") {
+    if (this.props.result === "Gryffindor") {
       return "gryffindor"
-    } else if (this.props.result == "Hufflepuff") {
+    } else if (this.props.result === "Hufflepuff") {
       return "hufflepuff"
-    } else if (this.props.result == "Slytherin") {
+    } else if (this.props.result === "Slytherin") {
       return "slytherin"
-    } else if (this.props.result == "Ravenclaw") {
+    } else if (this.props.result === "Ravenclaw") {
       return "ravenclaw"
     }
   }
