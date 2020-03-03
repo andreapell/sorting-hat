@@ -19,6 +19,38 @@ class Result extends React.Component {
           <h2 className="title">
             {this.props.result}
           </h2>
+            {this.props.result === "Gryffindor" && (
+              <div>
+                <div className="house-crest gryffindor-crest"/>
+                <p className="house-description gryffindor-description">
+                  Gryffindor values courage, bravery, nerve, and chivalry.
+                </p>
+              </div>
+            )}
+            {this.props.result === "Hufflepuff" && (
+              <div>
+                <div className="house-crest hufflepuff-crest"/>
+                <p className="house-description hufflepuff-description">
+                  Hufflepuff values hard work, patience, justice, and loyalty.
+                </p>
+              </div>
+            )}
+            {this.props.result === "Ravenclaw" && (
+              <div>
+                <div className="house-crest ravenclaw-crest"/>
+                <p className="house-description ravenclaw-description">
+                  Ravenclaw values intelligence, creativity, learning, and wit.
+                </p>
+              </div>
+            )}
+            {this.props.result === "Slytherin" && (
+              <div>
+                <div className="house-crest slytherin-crest"/>
+                <p className="house-description slytherin-description ">
+                  Slytherin values ambition, cunning, leadership, and resourcefulness.
+                </p>
+              </div>
+            )}
         </div>
       </div>
     )

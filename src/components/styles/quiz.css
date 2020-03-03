@@ -2,7 +2,6 @@
 
 body {
   background-color: #ffffff;
-  /* background-color: #364F54; */
 }
 
 .quiz-container {
@@ -50,9 +49,22 @@ body {
   font-size: 40px;
 }
 
+.house-crest {
+  height: 200px;
+  width: 200px;
+}
+
 .gryffindor {
   background-color: #DDCCBF;
   color: #B12517;
+}
+
+.gryffindor-description {
+  color: #7E0100;
+}
+
+.gryffindor-crest {
+  background: url(../assets/gryffindor.png)
 }
 
 .hufflepuff {
@@ -60,12 +72,36 @@ body {
   color: #D3AF53;
 }
 
+.hufflepuff-description {
+  color: #B68653;
+}
+
+.hufflepuff-crest {
+  background: url(../assets/hufflepuff.png)
+}
+
 .slytherin {
   background-color: #DBEBD1;
   color: #0B3A0B;
 }
 
+.slytherin-description {
+  color: #486E2F;
+}
+
+.slytherin-crest {
+  background: url(../assets/slytherin.png)
+}
+
 .ravenclaw {
   background-color: #D3D3D3;
   color: #1E3888;
+}
+
+.ravenclaw-description {
+  color: #0E1A40;
+}
+
+.ravenclaw-crest {
+  background: url(../assets/ravenclaw.png)
 }
