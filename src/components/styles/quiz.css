@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Playfair+Display|Lora|Lato:300,400,700&display=swap');
 
+html {
+  height: 100%;
+}
+
 body {
-  background-color: #ffffff;
+  background: #ad5389;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
 }
 
 .quiz-container {
@@ -12,15 +22,19 @@ body {
 }
 
 .question-and-answers {
-  background-color: #e8e8e8;
-  width: 100vh;
-  height: 100vh;
   padding: 20px 20px 40px;
   margin: 20px;
+  width: 500px;
+}
+
+@media screen and (max-device-width: 1024px)  {
+  .question-and-answers, .results-container {
+    width: 100%;
+  }
 }
 
 .question {
-  color: #050708;
+  color: #ffffff;
   margin: 20px;
   text-align: justify;
   font-size: 18px;
@@ -36,8 +50,8 @@ body {
 }
 
 .results-container {
-  width: 100vh;
-  height: 100vh;
+  width: 500px;
+  height: 500px;
   padding: 20px 20px 40px;
   margin: 20px;
 }
@@ -49,59 +63,64 @@ body {
   font-size: 40px;
 }
 
-.house-crest {
+.image-container {
   height: 200px;
   width: 200px;
 }
 
 .gryffindor {
-  background-color: #DDCCBF;
-  color: #B12517;
-}
-
-.gryffindor-description {
-  color: #7E0100;
+  background: #8E0E00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
 }
 
 .gryffindor-crest {
-  background: url(../assets/gryffindor.png)
+  background: url(../assets/gryffindor.png) no-repeat center;
 }
 
 .hufflepuff {
-  background-color: #E2DDD0;
-  color: #D3AF53;
-}
-
-.hufflepuff-description {
-  color: #B68653;
+  background: #fceabb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #967a31;
 }
 
 .hufflepuff-crest {
-  background: url(../assets/hufflepuff.png)
+  background: url(../assets/hufflepuff.png) no-repeat center;
 }
 
 .slytherin {
-  background-color: #DBEBD1;
+  background: #636363;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #0B3A0B;
 }
 
-.slytherin-description {
-  color: #486E2F;
-}
-
 .slytherin-crest {
-  background: url(../assets/slytherin.png)
+  background: url(../assets/slytherin.png) no-repeat center;
 }
 
 .ravenclaw {
-  background-color: #D3D3D3;
-  color: #1E3888;
-}
-
-.ravenclaw-description {
-  color: #0E1A40;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
 }
 
 .ravenclaw-crest {
-  background: url(../assets/ravenclaw.png)
+  background: url(../assets/ravenclaw.png) no-repeat center;
+}
+
+.house-crest {
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 200px;
+  width: auto;
+}
+
+.house-description {
+  text-align: center;
 }
