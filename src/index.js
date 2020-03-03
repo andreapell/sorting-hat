@@ -73,8 +73,6 @@ class App extends React.Component {
     const maxAnswerCount = Math.max.apply(null, answersCountValues);
   
     const filteredKey = answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
-    console.log(answersCount)
-    console.log(filteredKey)
     return filteredKey
   }
 
