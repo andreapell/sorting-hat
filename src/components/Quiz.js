@@ -1,6 +1,7 @@
 import React from 'react';
 import AnswerOption from '../components/AnswerOption';
 import Question from '../components/Question'
+import './styles/quiz.css'
 
 function Quiz(props) {
   function renderAnswerOptions(key) {
@@ -17,11 +18,13 @@ function Quiz(props) {
   }
 
   return (
-    <div key={props.questionId}>
-      <Question content={props.question} />
-      <ul className="answerOptions">
-        {props.answerOptions.map(renderAnswerOptions)}
-      </ul>
+    <div className="quiz-container" key={props.questionId}>
+      <div className="question-and-answers">
+        <Question content={props.question} />
+        <div className="answer-options-container">
+          {props.answerOptions.map(renderAnswerOptions)}
+        </div>
+      </div>
     </div>
   );
 }

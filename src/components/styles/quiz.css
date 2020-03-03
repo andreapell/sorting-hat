@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Playfair+Display|Lora|Lato:300,400,700&display=swap');
+
+body {
+  background-color: #ffffff;
+  /* background-color: #364F54; */
+}
+
+.quiz-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato';
+}
+
+.question-and-answers {
+  background-color: #e8e8e8;
+  width: 100vh;
+  height: 100vh;
+  padding: 20px 20px 40px;
+  margin: 20px;
+}
+
+.question {
+  color: #050708;
+  margin: 20px;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Merriweather';
+  font-weight: 300;
+}
+
+.answer-option {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.results-container {
+  width: 100vh;
+  height: 100vh;
+  padding: 20px 20px 40px;
+  margin: 20px;
+}
+
+.title {
+  font-family: 'Merriweather';
+  font-weight: 800;
+  text-align: center;
+  font-size: 40px;
+}
+
+.gryffindor {
+  background-color: #DDCCBF;
+  color: #B12517;
+}
+
+.hufflepuff {
+  background-color: #E2DDD0;
+  color: #D3AF53;
+}
+
+.slytherin {
+  background-color: #DBEBD1;
+  color: #0B3A0B;
+}
+
+.ravenclaw {
+  background-color: #D3D3D3;
+  color: #1E3888;
+}

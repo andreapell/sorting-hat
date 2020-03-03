@@ -3,9 +3,9 @@ import React from 'react';
 class Question extends React.Component {
   render() {
     return (
-      <h3>
-        {this.props.content}
-      </h3>
+      <div className="question-container">
+        <h3 className="question">{this.props.content}</h3>
+      </div>
     )
   }
 }
